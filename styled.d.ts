@@ -1,10 +1,7 @@
 import 'styled-components'
 
+import { ThemeModel } from './src/styles/models'
+
 declare module 'styled-components' {
-  export interface DefaultTheme {
-    colors: {
-      primary: string
-      secondary: string
-    }
-  }
+  export interface DefaultTheme extends ThemeModel {}
 }
