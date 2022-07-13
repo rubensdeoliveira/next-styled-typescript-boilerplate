@@ -1,4 +1,4 @@
-import { ThemeModel } from './models'
+import { ThemeModel } from '@/styles/models'
 
 export const theme: ThemeModel = {
   colors: {
